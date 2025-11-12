@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Weather</li>
+        <li style="float: right">About</li>
+      </ul>
+    </nav>
+    <div class="flex-col">
+      <div class="cool-things">
+        <div class="img-box">
+          <span id="dayTitle" class="col-head"></span>
+          <br />
+          <img
+            id="weatherIcon"
+            class="weatherIcon"
+            src=""
+            width="100px"
+            height="100px"
+            alt=""
+          />
+          <h4 class="sect-head">Weather Description</h4>
+          <p class="weather-desc" id="weather-desc"></p>
+        </div>
+        <div class="temp-data-box">
+          <h3 class="sect-head">Temperature Data</h3>
+          <span class="temp-data">
+            <p class="p-t">High: <span id="data_high"></span>°F</p>
+            <p class="p-t">Low: <span id="data_low"></span>°F</p>
+            <p class="p-t">Current Temp: <span id="data_current"></span>°F</p>
+            <p class="p-t">Feels Like: <span id="data_feels_like"></span>°F</p>
+            <p class="p-h">Humidity: <span id="data_humidity"></span>%</p>
+          </span>
+        </div>
+        <div class="wind-data-box">
+          <h3 class="sect-head">Wind Data</h3>
+          <div class="wind_data">
+            <p>Deg: <span id="wind_data_deg"></span>°</p>
+            <p class="wdp2">Speed: <span id="wind_data_speed"></span> Mph</p>
+            <p class="wdp3">Gust: <span id="wind_data_gust"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main></main>
+    <footer>
+      <p class="p-f">Last Updated: <span id="Date"></span></p>
+      <script src="./scripts.js"></script>
+    </footer>
+  </body>
+</html>

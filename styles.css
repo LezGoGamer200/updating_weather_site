@@ -1,0 +1,63 @@
+.col-head,
+.temp-data,
+.wind_data,
+.weather-desc {
+  display: block;
+  text-align: center;
+}
+.weatherIcon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: solid black 1px;
+  background-color: rgb(218, 216, 216);
+}
+.sect-head {
+  text-align: center;
+}
+.flex-col {
+  background-image: url("./lightning_storm.jpg");
+}
+.flex-col,
+.p-f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+}
+.cool-things {
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  max-width: fit-content;
+}
+.temp-data-box,
+.wind-data-box {
+  border-top: solid black 2px;
+}
+.img-box {
+  background-color: aqua;
+  border: solid blue 1px;
+}
+.temp-data-box {
+  background-color: orange;
+  border: solid red 1px;
+}
+.wind-data-box {
+  background-color: lightgray;
+  background-color: grey;
+}
+.wdp3 {
+  margin-bottom: 0px;
+  padding-bottom: 16px;
+}
+footer {
+  background-color: blue;
+  color: white;
+}
+nav {
+  color: white;
+}
+body {
+  background-color: black;
+}
