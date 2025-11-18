@@ -1,7 +1,11 @@
+* {
+  font-family: "Lucida Sans";
+}
 .col-head,
 .temp-data,
 .wind_data,
-.weather-desc {
+.weather-desc,
+.news {
   display: block;
   text-align: center;
 }
@@ -19,7 +23,8 @@
   background-image: url("./lightning_storm.jpg");
 }
 .flex-col,
-.p-f {
+.p-f,
+.news {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,4 +65,80 @@ nav {
 }
 body {
   background-color: black;
+}
+#a1_img,
+#a2_img,
+#a3_img,
+#a4_img,
+#a5_img {
+  width: 150px;
+  height: 150px;
+  border: solid white 2px;
+  border-top: none;
+}
+#a1_head,
+#a1_desc,
+#a1_author,
+.a1_author,
+#a1_cont,
+#a1_source,
+.a1_source,
+#a2_head,
+#a2_desc,
+#a2_author,
+.a2_author,
+#a2_cont,
+#a2_source,
+.a2_source,
+#a3_head,
+#a3_desc,
+#a3_author,
+.a3_author,
+#a3_cont,
+#a3_source,
+.a3_source,
+#a4_head,
+#a4_desc,
+#a4_author,
+.a4_author,
+#a4_cont,
+#a4_source,
+.a4_source,
+#a5_head,
+#a5_desc,
+#a5_author,
+.a5_author,
+#a5_cont,
+#a5_source,
+.a5_source {
+  color: white;
+  border: solid white 2px;
+  width: 250px;
+  border-left: none;
+  border-right: none;
+}
+#a1_author,
+#a1_source,
+#a2_author,
+#a2_source,
+#a3_author,
+#a3_source,
+#a4_author,
+#a4_source,
+#a5_author,
+#a5_source {
+  border: none;
+  color: aqua;
+}
+h1,
+.art_head {
+  text-align: center;
+  color: white;
+}
+#a1,
+#a2,
+#a3,
+#a4,
+#a5 {
+  border: solid white 2px;
 }
