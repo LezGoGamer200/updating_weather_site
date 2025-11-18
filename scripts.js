@@ -118,10 +118,6 @@ fetch(N_URL)
     if (a5.content === null) {
       document.getElementById("a5_cont").textContent = "Information not given.";
     }
-    if (a5.source.id != null) {
-      document.getElementById("a5_source").textContent = a5.source.name;
-      document.getElementById("a5_source").href = a5.url;
-    }
     if (a1.source.id === null) {
       document.getElementById("a1_source").textContent =
         "Information not given.";
@@ -143,3 +139,4 @@ fetch(N_URL)
         "Information not given.";
     }
   });
+
